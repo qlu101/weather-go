@@ -31,7 +31,7 @@ func init() {
 
 /*
 func main() {
-	log.Println("Starting go http server from main() ...")
+	log.Print("Listening on http requests...")
 
     http.HandleFunc("/weather", getHandler)
 	log.Fatal(http.ListenAndServe(":8088", nil))
